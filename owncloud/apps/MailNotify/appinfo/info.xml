@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<info>
+    <id>MailNotify</id>
+    <name>Mail Notifications</name>
+    <description>App to register for system events and send email notifications when needed.</description>
+    <version>1.5</version>
+    <license>MITRE License</license>
+    <author>Steve Harrison</author>
+    <shipped>true</shipped>
+    <require>5</require>
+	<!--<types>-->
+		<!--<type>logging</type>-->
+	<!--</types>-->
+</info>

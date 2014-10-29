@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<info>
+	<id>thirstrunwizard</id>
+	<name>Thirst Run Wizard</name>
+	<description>MITRE hack to first run wizard to orient new subadmin users.</description>
+	<licence>AGPL</licence>
+	<author>Kevin Hennessy</author>
+	<require>4.9</require>
+	<shipped>true</shipped>
+	<default_enable/>
+</info>

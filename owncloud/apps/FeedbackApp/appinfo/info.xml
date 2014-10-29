@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<info>
+    <id>FeedbackApp</id>
+    <name>Feedback App</name>
+    <description>Feedback app.</description>
+    <version>1.0</version>
+    <license>MITRE License</license>
+    <author>Kevin Hennessy</author>
+    <shipped>true</shipped>
+    <default_enable/>
+    <require>5</require>
+</info>

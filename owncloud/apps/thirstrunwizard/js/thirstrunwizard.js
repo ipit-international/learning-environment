@@ -1,0 +1,29 @@
+function showthirstrunwizard(){
+	$.colorbox({
+		opacity:0.4, 
+		transition:"elastic", 
+		speed:100, 
+		width:"70%", 
+		height:"70%", 
+		href: OC.filePath('thirstrunwizard', '', 'wizard.php'),
+		onComplete : function(){
+			if (!SVGSupport()) {
+				replaceSVG();
+			}
+		},
+		onClosed : function(){
+			$.ajax({
+			url: OC.filePath('thirstrunwizard', 'ajax', 'disable.php'),
+			data: ""
+			});
+		}  
+	});
+}
+
+$('#showWizard').live('click', function () {	
+	showthirstrunwizard();
+});
+
+$('#closeWizard').live('click', function () {	
+		$.colorbox.close();
+});

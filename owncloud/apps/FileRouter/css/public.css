@@ -1,0 +1,45 @@
+.transmissionLog {
+    margin: .5em;
+    margin-top: 2em;
+}
+
+.transmissionLog h1 {
+    font-size: 3em;
+    display: block;
+}
+
+.transmissionLog h4 {
+    font-size: 1.1em;
+    display: block;
+}
+
+.txTable {
+    margin: 1em;
+}
+
+.txTable th {
+    font-weight: bold;
+    background-color: #c0c0c0;
+    padding: .2em;
+    border: 1px solid #000000;
+}
+
+.txTable td {
+    padding: .2em .6em .2em .6em;
+    border: 1px solid #c0c0c0;
+}
+
+.txTable tr.alt td {
+    background-color: #dadada;
+}
+
+.txTable td img {
+    background-color: #ffffff;
+    width: 24px;
+    height: 24px;
+}
+
+.txTable td a:link {color:#0000ff;}      /* unvisited link */
+.txTable td a:visited {color:#00FF00;}  /* visited link */
+.txTable td a:hover {color:lightblue;}  /* mouse over link */
+.txTable td a:active{color:#FF0000;}

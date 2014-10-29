@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!--
+  From meeting notes
+> M1O2 transmssion? (Boolean)
+> OC File ID
+> Sending FFI name
+> Intermediary HCTA group name
+> ultimate intended recipient group name
+-->
+<database>
+    <name>*dbname*</name>
+    <create>true</create>
+    <overwrite>false</overwrite>
+    <charset>utf8</charset>
+    <table>
+        <name>*dbprefix*transmission_tracker</name>
+        <declaration>
+            <field>
+                <name>id</name>
+                <type>integer</type>
+                <default>0</default>
+                <notnull>true</notnull>
+                <autoincrement>1</autoincrement>
+            </field>
+            <field>
+                <name>fileid</name>
+                <type>integer</type>
+                <notnull>true</notnull>
+            </field>
+            <field>
+                <name>igatype</name>
+                <type>integer</type>
+                <notnull>true</notnull>
+            </field>
+            <field>
+                <name>state</name>
+                <type>integer</type>
+                <notnull>true</notnull>
+            </field>
+            <field>
+                <name>sender</name>
+                <type>text</type>
+                <length>512</length>
+                <notnull>true</notnull>
+            </field>
+            <field>
+                <name>recipient</name>
+                <type>text</type>
+                <notnull>true</notnull>
+                <length>512</length>
+            </field>
+            <field>
+                <name>intermediate</name>
+                <type>text</type>
+                <length>512</length>
+            </field>
+            <field>
+                <name>dl_count</name>
+                <type>integer</type>
+                <default>0</default>
+            </field>
+            <field>
+                <name>ttoe</name>
+                <type>text</type>
+                <length>128</length>
+            </field>
+            <field>
+                <name>ttod</name>
+                <type>text</type>
+                <length>128</length>
+            </field>
+            <field>
+                <name>fullpath</name>
+                <type>text</type>
+                <length>512</length>
+            </field>
+        </declaration>
+    </table>
+</database>

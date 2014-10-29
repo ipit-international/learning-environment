@@ -1,0 +1,32 @@
+{
+  "name": "owncloud-appframework",
+  "description": "ownCloud App Framework",
+  "version": "0.0.1",
+  "author": {
+    "name": "Bernhard Posselt",
+    "email": "dev@bernhard-posselt.com"
+  },
+  "private": true,
+  "homepage": "https://github.com/owncloud/apps/tree/appframework-js/appframework/",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:owncloud/apps.git"
+  },
+  "bugs": "https://github.com/owncloud/apps/issues",
+  "contributors": [],
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-cli": "*",
+    "coffee-script": "*",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-coffeelint": "*",
+    "grunt-wrap": "*",
+    "testacular": "*",
+    "phantomjs": "*",
+    "grunt-phpunit": "*",
+    "gruntacular": "*"
+  },
+  "engine": "node >= 0.8"
+}

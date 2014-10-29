@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<info>
+	<id>appframework</id>
+	<name>App Framework</name>
+	<description>Framework for creating apps</description>
+	<version>0.104</version>
+	<licence>AGPL</licence>
+	<author>Bernhard Posselt</author>
+	<require>5</require>
+	<shipped>true</shipped>
+</info>

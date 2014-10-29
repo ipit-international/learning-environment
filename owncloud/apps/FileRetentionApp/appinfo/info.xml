@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<info>
+	<id>FileRetentionApp</id>
+	<name>File Retention App</name>
+	<license>MITRE License</license>
+	<author>Andrew Ross</author>
+	<require>5</require>
+	<description>Retain files for only a certain period of time.  Delete them if they are too old.</description>
+	<shipped>true</shipped>
+	<version>2.1</version>
+</info>

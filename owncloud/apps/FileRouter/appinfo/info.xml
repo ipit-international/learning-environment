@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<info>
+	<id>FileRouter</id>
+	<name>Automatic File Sharing App</name>
+	<license>MITRE License</license>
+	<author>Andrew Ross</author>
+	<require>5</require>
+	<description>Share FATCA files that have been automatically uploaded with a properly formatted sidecar file (.fsc).</description>
+	<shipped>true</shipped>
+	<version>1.4</version>
+</info>

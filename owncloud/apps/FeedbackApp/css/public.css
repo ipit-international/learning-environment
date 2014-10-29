@@ -1,0 +1,32 @@
+.notificationLog {
+    margin: 2em .5em .5em;
+}
+
+.notificationLog h1 {
+    font-size: 3em;
+    display: block;
+}
+
+.logTable {
+    margin: 1em;
+}
+
+.logTable th {
+    font-weight: bold;
+    background-color: #c0c0c0;
+}
+
+.logTable td {
+    padding: .2em .6em .2em .6em;
+    border: 1px solid #c0c0c0;
+}
+
+.logTable tr.alt td {
+    background-color: #dadada;
+}
+
+.logTable td img {
+    background-color: #ffffff;
+    width: 24px;
+    height: 24px;
+}
